@@ -27,7 +27,7 @@ const storeNumbers = [8407, 8400];
 
     try {
       browser = await chromium.launch({
-        headless: false,
+        headless: true,
         slowMo: 100,
         args: ["--no-sandbox", "--disable-setuid-sandbox"],
       });
