@@ -34,9 +34,7 @@ jobs:
 
       - name: Run Bot
         env:
-          EMAIL1: ${{ secrets.EMAIL1 }}
-          EMAIL2: ${{ secrets.EMAIL2 }}
-          PASSWORD1: ${{ secrets.PASSWORD1 }}
-          PASSWORD2: ${{ secrets.PASSWORD2 }}
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
           DEBUG: pw:api
         run: node bot.js
