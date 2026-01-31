@@ -1,1 +1,3 @@
-Cary + Morrisville (Diksha)
+# Cary + Morrisville (Diksha)
+
+## One User Two Stores Model
